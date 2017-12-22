@@ -1,3 +1,9 @@
+
+*{
+	padding: 0;
+	margin:0;
+}
+
 h1{
 font-family: sans-serif, Arial;
 font-weight: 800;
@@ -13,9 +19,16 @@ text-align: center;
 font-style: italic;
 }
 
+p {
+	margin-bottom: 60px;
+}
+
+#red {
+
+}
 body{
   text-align: center;
-  background: url("images/creativedonuts.jpg");
+  background: url("../images/creativedonuts.jpg");
   background-size: cover;
   color: #595959;
   font-family: Helvetica;
@@ -23,13 +36,17 @@ body{
 
 hr{
   width: 200px;
+
 }
 
 
 p{
-font-size: 14px;
+	font-size: 14px;
 }
 
 ul{
-color:red;
+	color:yellow;
+	width: 150px;
+	margin: 0 auto;
+
 }
