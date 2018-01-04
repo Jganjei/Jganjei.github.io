@@ -2,8 +2,10 @@
 	padding: 10;
 	margin:10;
 }
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=BenchNine:300');
+
 h1{
 font-family: 'Roboto', sans-serif;
 font-weight: 800;
@@ -11,6 +13,7 @@ font-size: 30px;
 text-align: center;
 color: #D9FFD9;
 }
+
 h2{
 font-family: 'Roboto', sans-serif;
 font-weight: 600;
@@ -19,10 +22,12 @@ text-align: center;
 font-style: italic;
 color: #7AC7FF;
 }
+
 p {
 	margin-bottom: 10px;
 	margin-top: 20px;
 }
+
 body{
  text-align: left;
  background: url("../images/creativedonuts.jpg");
@@ -30,26 +35,33 @@ body{
  color: #FFD189;
  font-family: 'BenchNine', sans-serif;
 }
+
 .logo{
 	background: url("../images/logo.jpg");
 	width: 250px;
 	height: 160px;
 }
+
 hr{
   width: 200px;
+
 }
+
 p{
 	font-size: 16px;
 	font-family: 'BenchNine', sans-serif;
 }
+
 ul{
 	color: white;
 	width: 150px;
 	margin: 2 auto;
 }
+
 a{
 	color: yellow;
 }
+
 nav{
 	text-decoration: none; 
 	text-align: right;
@@ -57,3 +69,6 @@ nav{
 	padding: 20px; 
 	margin: 20px;
 }
+
+
+
