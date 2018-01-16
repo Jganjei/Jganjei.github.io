@@ -24,9 +24,24 @@ nav{
   margin: 2px;
   float: right;
 }
-nav a{
+nav a, .text-center a {
+  background-color: #E8C66A;
+  color: black;
+  font-size: 22px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  width: 55px;
+  text-align: center;
   text-decoration: none;
-  }
+}
+nav a:hover {
+   background-color: #555;
+   color: yellow;
+}
+.text-center {
+  text-align: center;
+  padding: 2%;
+}
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -36,7 +51,8 @@ nav a{
   margin: 5px 2px;
 }
 .fa:hover {
-    opacity: .9;
+    opacity: .5;
+    background-color: clear;
 }
 .fa-facebook {
   background: #3B5998;
@@ -81,7 +97,7 @@ h3{
    font-weight: 800;
    font-size: 18px;
    background-color: blue;
-   color: Red;
+   color: red;
    margin: 10px 10px 10px 10px;
    padding: 10px 10px 10px 10px;
    width: 55px;
@@ -107,68 +123,55 @@ p {
 }
 .background-blue{
   background-color: #55B9FF;
+  width: 1100px;
+  margin: 20px auto;
 }
 .background-orange{
   background-color: orange;
 }
 .wrapper{
   width: 800px;
+  text-align: center;
   margin: auto;
 }
 .alignment{
-  float: left;
+  display: inline-block;
 }
 aside{
   font-size: 17px;
   width: 240px;
 }
 .creations{
-  float:left;
+  background-color: #A1B2A6;
+  height: 300px;
+  margin: 50px auto;
 }
-.services{
-  width: 550px;
+.services {
+  width: 200px;
   padding: 3%;
-  margin: 20px 20px 10px 10px;
-  height: 5em;
+  margin: 40px auto;
+  height: 1%;
   outline: 5px dotted yellow;
-  text-align: center;
-  line-height: 20px;
+  line-height: 30px;
   background: #A2A1B2;
-  font-weight: 10px
+  font-weight: 10px;
 }
-.services ul{
+.services li{
   list-style: none;
-  margin: 5px;
-  padding: 5px;
-  width: 210px;
+  width: 25%;
+  border: 1px solid black;
+  padding: 30px;
+  margin: 20px auto;
+  text-align: center;
+}
+.services a:hover {
+   color: yellow;
 }
 ul {
  color: white;
  font-size: 20px;
  list-style-type: square;
  display: inline-block;
-}
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-}
-a {
-  background-color: #E8C66A;
-  color: black;
-  font-size: 22px;
-  margin: 10px 10px 10px 10px;
-  padding: 10px 10px 10px 10px;
-  width: 55px;
-  text-align: center;
-  text-decoration: none;
-}
-a:hover {
-   background-color: #555;
-   color: yellow;
-}
-.text-center {
-  text-align: center;
 }
 body{
  text-align: left;
