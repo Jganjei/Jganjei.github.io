@@ -167,10 +167,6 @@ aside{
   background-color: red;
   text-decoration: none;
 }
-.services a:hover {
-   color: yellow;
-   text-decoration: none;
-}
 ul {
  color: white;
  font-size: 20px;
