@@ -155,6 +155,8 @@ aside{
   line-height: 30px;
   background: #A2A1B2;
   font-weight: 10px;
+  color: red;
+  text-decoration: none;
 }
 .services li{
   list-style: none;
@@ -162,9 +164,12 @@ aside{
   padding: 30px;
   margin: 20px auto;
   text-align: center;
+  background-color: red;
+  text-decoration: none;
 }
 .services a:hover {
    color: yellow;
+   text-decoration: none;
 }
 ul {
  color: white;
