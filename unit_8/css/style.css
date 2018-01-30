@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=BenchNine:300');
+*{
+	padding: 10;
+	margin:10;
+}
+header {
+	text-align: left;
+	width: 100%;
+}
+.logo {
+  float: left;
+  display: inline-block;
+  border: 10px black dotted;
+  background-color: green;
+  padding: 5px 10px 5px 10px;
+  margin: 10px 30px 20px 10px;
+}
+nav {
+  text-decoration: none; 
+  text-align: right;
+  font-size: 20px;
+  padding: 20px; 
+  margin: 2px;
+  float: right;
+}
+nav a {
+  background-color: #E8C66A;
+  color: black;
+  font-size: 22px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+}
+nav a:hover {
+   background-color: #555;
+   color: yellow;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: .5;
+    background-color: clear;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #FF5532;
+  color: white;
+}
+.fa-envelope {
+  background: #A192B2;
+  color: white;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  background-color: #EFFFF0;
+  font-weight: 800;
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  width: 400px;
+  margin: 0 auto;
+  padding: 1px;
+  text-transform: uppercase;
+  display: block;
+}
+h2 {
+   font-family: 'Roboto', sans-serif;
+   background-color: black;
+   font-weight: 800;
+   font-size: 20px;
+   text-align: center;
+   color: #D9FFD9;
+   width: 200px;
+   margin: 0 auto;
+   padding: 1px;
+   text-transform: uppercase;
+   display: block;
+}
+h4 {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 800;
+   font-size: 18px;
+   background-color: #B23266;
+   color: #32FF93;
+   margin: 10px 10px 10px 10px;
+   padding: 10px 10px 10px 10px;
+   width: 250px;
+   float: right;
+   text-align: center;
+}
+p {
+  margin: 20px 8px 20px 12px;
+  font-size: 20px;
+  font-family: 'BenchNine', sans-serif;
+  padding: 10px;
+}
+.background-blue{
+  background-color: #55B9FF;
+  width: 50%;
+  margin: 20px auto;
+}
+.background-orange{
+  background-color: orange;
+}
+.wrapper{
+  max-width: 1500px;
+  text-align: center;
+  margin: auto;
+}
+.alignment{
+  display: inline-block;
+}
+aside {
+  font-size: 17px;
+  width: 240px;
+  margin-top: 30px;
+}
+.creations {
+  background-color: #A1B2A6;
+  height: 303px;
+  margin: 0px auto;
+  text-align:left;
+  vertical-align: top;
+  margin-top: 30px;
+}
+#services {
+  font-size: 22px;
+  width: 25%;
+  padding: 30px;
+  margin: 10px auto;
+  margin-top: 50px;
+  height: 5%;
+  outline: 5px dotted yellow;
+  line-height: 30px;
+  background: #A2A1B2;
+  font-weight: 10px;
+  color: red;
+}
+#services ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#services li {
+  list-style: none;
+  border: 1px solid black;
+  padding: 30px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: red;
+  display: inline-block;
+  width: 25%;
+}
+ul {
+ color: white;
+ font-size: 20px;
+ list-style-type: square;
+ display: inline-block;
+}
+body {
+ text-align: left;
+ background: url("../images/creativedonuts.jpg");
+ background-size: cover;
+ color: black;
+ font-family: 'BenchNine', sans-serif;
+}
+hr {
+  width: 200px;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " "; 
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+footer {
+	text-align: center;
+	background-color: #00B27D;
+  margin: 10px auto 10px auto;
+  padding: 10px 10px 10px 10px;
+  width: 400px;
+}
+@media only screen and (max-width: 1200px)  {
+
+#services {
+  width: 50%;
+}
+footer {
+  width: 50%;
+}
+
+@media only screen and (min-width: 330px) {
+#services {
+  width:40%;
+}
+.creations {
+  height: 277px;
+}
+footer {
+  width: 50%;
+}
+}
