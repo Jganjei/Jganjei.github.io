@@ -64,7 +64,7 @@ transform-origin: 0% 100%;
 #menu {
   position: absolute;
   width: 45px;
-  margin: -100px 0 0 -50px;
+  margin: -100px 0 0 -80px;
   padding: 50px;
   padding-top: 110px;
   padding-bottom: 30px;
@@ -302,14 +302,47 @@ h4 {
     display: inline-block;
     }
     #menuToggle {
-        left: -151px;
+        left: -300px;
       }
+     #menu {
+       margin: -100px 0 0 -70px;
+     } 
 }
-@media only screen and (max-width: 920px)  {
+@media only screen and (max-width: 1000px)  {
+  #menu {
+        margin: -100px 0 0 -50px;
+  }
+}
+@media only screen and (max-width: 950px)  {
+  #menu {
+        margin: -100px 0 0 -35px;
+  }
+}
+@media only screen and (max-width: 930px)  {
  #menuToggle {
-        transform: translate(-73%);
+            left: -280px;
       }
 }
+@media only screen and (max-width: 892px)  {
+ #menuToggle {
+            left: -270px;
+      }
+    }
+  @media only screen and (max-width: 873px)  {
+ #menuToggle {
+            left: -260px;
+      }
+    }
+@media only screen and (max-width: 860px)  {
+ #menuToggle {
+            left: -250px;
+      }
+    }
+@media only screen and (max-width: 800px)  {
+ #menuToggle {
+            left: -220px;
+      }
+    }
 @media only screen and (max-width: 796px)  {
  
   footer {
@@ -317,7 +350,7 @@ h4 {
     margin-bottom: 35px;
     }
     #menuToggle {
-        left: -151px;
+        left: -2px;
       }
 }
 @media only screen and (max-width: 726px)  {
@@ -333,7 +366,7 @@ h4 {
     display: inline-block;
     }
     #menuToggle {
-        left: 2px;
+        left: 10px;
       }
 }
 @media screen and (min-width: 550px) {
@@ -347,12 +380,11 @@ h4 {
     margin-top: 20px;
   } 
   .block__left{
-    margin-right: .5em;
-    margin-bottom: 0;
+    margin-bottom: 1em;
   }
   .block__right{
-    margin-left: .5em;
-     margin-bottom: 0;
+    margin-bottom: -30px;
+    padding-bottom: 40px;
   } 
 }
 @media only screen and (max-width: 507px)  {
@@ -361,7 +393,9 @@ h4 {
     width: 50%
     }
     #menuToggle {
-        left: 100px;
+        left: 2px;
+        padding-bottom: 10px;
+        padding: 40px;
       }
 }
 @media only screen and (max-width: 454px)  {
@@ -370,7 +404,7 @@ h4 {
     width: 60%
     }
     #menuToggle {
-        left: 100px;
+        left: 50px;
       }
 }
 @media only screen and (max-width: 330px) {
