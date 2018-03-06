@@ -13,11 +13,10 @@ a:hover {
   color: blue;
   text-decoration: none;
 }
-#menuToggle {
-  display: block;
-  position: relative;
-  top: 50px;
-  left: 50px; 
+nav{
+  position: fixed;
+  left: 0;
+  top: 0; 
 }
 #menuToggle input {
   display: block;
@@ -301,73 +300,14 @@ h4 {
   header {
     display: inline-block;
     }
-    #menuToggle {
-        left: -300px;
-      }
-     #menu {
-       margin: -100px 0 0 -70px;
-     } 
 }
-@media only screen and (max-width: 1000px)  {
-  #menu {
-        margin: -100px 0 0 -50px;
-  }
-}
-@media only screen and (max-width: 950px)  {
-  #menu {
-        margin: -100px 0 0 -35px;
-  }
-}
-@media only screen and (max-width: 930px)  {
- #menuToggle {
-            left: -280px;
-      }
-}
-@media only screen and (max-width: 892px)  {
- #menuToggle {
-            left: -270px;
-      }
-    }
-  @media only screen and (max-width: 873px)  {
- #menuToggle {
-            left: -260px;
-      }
-    }
-@media only screen and (max-width: 860px)  {
- #menuToggle {
-            left: -250px;
-      }
-    }
-    @media only screen and (max-width: 830px)  {
- #menuToggle {
-            left: -230px;
-      }
-    }
-@media only screen and (max-width: 800px)  {
- #menuToggle {
-            left: -220px;
-      }
-    }
 @media only screen and (max-width: 796px)  {
- 
+
   footer {
     display: inline-block;
     margin-bottom: 35px;
     }
-    #menuToggle {
-        left: -210px;
-      }
 }
-@media only screen and (max-width: 750px)  {
- #menuToggle {
-            left: -200px;
-      }
-    }
-@media only screen and (max-width: 730px)  {
-    #menuToggle {
-        left: -188px;
-      }
-    }
 @media only screen and (max-width: 726px)  {
 
   header {
@@ -381,35 +321,13 @@ h4 {
     display: inline-block;
     }
 }
-@media only screen and (max-width: 705px)  {
-    #menuToggle {
-        left: -165px;
-      }
-    }
-@media only screen and (max-width: 660px)  {
-    #menuToggle {
-        left: -140px;
-      }
-    }
-@media only screen and (max-width: 615px)  {
-    #menuToggle {
-        left: -120px;
-      }
-    }
 @media only screen and (max-width: 570px)  {
-    #menuToggle {
-        left: -105px;
-      }
+  
 span.logo {
     margin: 10px 10px 10px 35px;
     padding: 0px -1px 0px 0px;
     }
   }
-@media only screen and (max-width: 566px)  {
-    #menuToggle {
-      left: -80px;
-      }
-    }
 @media screen and (min-width: 550px) {
   .block, .block:before{
     width: 45vw;
@@ -429,20 +347,12 @@ span.logo {
   footer {
     width: 50%
     }
-    #menuToggle {
-        left: 2px;
-        padding-bottom: 10px;
-        padding: 40px;
-      }
 }
 @media only screen and (max-width: 454px)  {
  
   footer {
     width: 60%
     }
-    #menuToggle {
-        left: 50px;
-      }
 }
 @media only screen and (max-width: 330px) {
   
@@ -462,7 +372,4 @@ span.logo {
     width: 70%;
     display: inline-block;
     }
-    #menuToggle {
-        left: 100px;
-      }
 }
